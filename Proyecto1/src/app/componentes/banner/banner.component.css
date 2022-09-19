@@ -1,0 +1,29 @@
+ #babnuevo{
+          width: 100%;
+          height: 500px;
+          padding:5px;
+          background-color: rgb(44, 202, 202);
+          border-radius:50px;}
+  .row{
+            padding: 20px;
+        }
+              
+      div{
+         background-color: rgb(44, 202, 202);
+      text-align: center;
+      border-radius: 10%;
+      }       
+        
+        /*etiqueta mi foto*/
+        #mi_nombre{
+            font-weight: bold;
+            margin-top: 40%;
+            margin-left: 10px;
+            float:right
+        }
+          
+          img{ width: 100%;
+            height: 600px
+         }
+       
+       

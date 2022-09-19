@@ -1,0 +1,520 @@
+"use strict";
+(self["webpackChunkProyecto1"] = self["webpackChunkProyecto1"] || []).push([["main"],{
+
+/***/ 5041:
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppComponent": () => (/* binding */ AppComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _componentes_header_header_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./componentes/header/header.component */ 4944);
+/* harmony import */ var _componentes_estudios_estudios_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./componentes/estudios/estudios.component */ 4217);
+/* harmony import */ var _componentes_experiencia_experiencia_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./componentes/experiencia/experiencia.component */ 4737);
+/* harmony import */ var _componentes_acercedemi_acercedemi_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./componentes/acercedemi/acercedemi.component */ 5689);
+/* harmony import */ var _componentes_banner_banner_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./componentes/banner/banner.component */ 9700);
+
+
+
+
+
+
+class AppComponent {
+    constructor() {
+        this.title = 'Proyecto1';
+    }
+}
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
+AppComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 5, vars: 0, template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "app-header")(1, "app-banner")(2, "app-acercedemi")(3, "app-experiencia")(4, "app-estudios");
+    } }, dependencies: [_componentes_header_header_component__WEBPACK_IMPORTED_MODULE_0__.HeaderComponent, _componentes_estudios_estudios_component__WEBPACK_IMPORTED_MODULE_1__.EstudiosComponent, _componentes_experiencia_experiencia_component__WEBPACK_IMPORTED_MODULE_2__.ExperienciaComponent, _componentes_acercedemi_acercedemi_component__WEBPACK_IMPORTED_MODULE_3__.AcercedemiComponent, _componentes_banner_banner_component__WEBPACK_IMPORTED_MODULE_4__.BannerComponent], styles: ["app-redessociales[_ngcontent-%COMP%]{\r\n    float: right;\r\n    margin-top: 25px;\r\n}\r\n    img[_ngcontent-%COMP%]{\r\n        width: 50px;}\r\n    div[_ngcontent-%COMP%]{\r\n           background-color: blanchedalmond;\r\n           float: right;\r\n           margin: 5px;\r\n        }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLGdCQUFnQjtBQUNwQjtJQUNJO1FBQ0ksV0FBVyxDQUFDO0lBRVo7V0FDRyxnQ0FBZ0M7V0FDaEMsWUFBWTtXQUNaLFdBQVc7UUFDZCIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImFwcC1yZWRlc3NvY2lhbGVze1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgbWFyZ2luLXRvcDogMjVweDtcclxufVxyXG4gICAgaW1ne1xyXG4gICAgICAgIHdpZHRoOiA1MHB4O31cclxuICAgICAgICBcclxuICAgICAgICBkaXZ7XHJcbiAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbiAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgICAgICAgIG1hcmdpbjogNXB4O1xyXG4gICAgICAgIH1cclxuXHJcbiJdfQ== */"] });
+
+
+/***/ }),
+
+/***/ 6747:
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppModule": () => (/* binding */ AppModule)
+/* harmony export */ });
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ 5041);
+/* harmony import */ var _componentes_header_header_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./componentes/header/header.component */ 4944);
+/* harmony import */ var _componentes_estudios_estudios_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./componentes/estudios/estudios.component */ 4217);
+/* harmony import */ var _componentes_experiencia_experiencia_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./componentes/experiencia/experiencia.component */ 4737);
+/* harmony import */ var _componentes_acercedemi_acercedemi_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./componentes/acercedemi/acercedemi.component */ 5689);
+/* harmony import */ var _componentes_banner_banner_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./componentes/banner/banner.component */ 9700);
+/* harmony import */ var _componentes_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./componentes/footer/footer.component */ 202);
+/* harmony import */ var _componentes_proyectos_proyectos_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./componentes/proyectos/proyectos.component */ 6774);
+/* harmony import */ var _componentes_hard_hard_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./componentes/hard/hard.component */ 2135);
+/* harmony import */ var _componentes_redessociales_redessociales_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./componentes/redessociales/redessociales.component */ 6792);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 2560);
+
+
+
+
+
+
+
+
+
+
+
+
+class AppModule {
+}
+AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
+AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent] });
+AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineInjector"]({ imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__.BrowserModule] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_0__.AppComponent,
+        _componentes_header_header_component__WEBPACK_IMPORTED_MODULE_1__.HeaderComponent,
+        _componentes_estudios_estudios_component__WEBPACK_IMPORTED_MODULE_2__.EstudiosComponent,
+        _componentes_experiencia_experiencia_component__WEBPACK_IMPORTED_MODULE_3__.ExperienciaComponent,
+        _componentes_acercedemi_acercedemi_component__WEBPACK_IMPORTED_MODULE_4__.AcercedemiComponent,
+        _componentes_banner_banner_component__WEBPACK_IMPORTED_MODULE_5__.BannerComponent,
+        _componentes_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__.FooterComponent,
+        _componentes_proyectos_proyectos_component__WEBPACK_IMPORTED_MODULE_7__.ProyectosComponent,
+        _componentes_hard_hard_component__WEBPACK_IMPORTED_MODULE_8__.HardComponent,
+        _componentes_redessociales_redessociales_component__WEBPACK_IMPORTED_MODULE_9__.RedessocialesComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__.BrowserModule] }); })();
+
+
+/***/ }),
+
+/***/ 5689:
+/*!****************************************************************!*\
+  !*** ./src/app/componentes/acercedemi/acercedemi.component.ts ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AcercedemiComponent": () => (/* binding */ AcercedemiComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class AcercedemiComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+AcercedemiComponent.ɵfac = function AcercedemiComponent_Factory(t) { return new (t || AcercedemiComponent)(); };
+AcercedemiComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AcercedemiComponent, selectors: [["app-acercedemi"]], decls: 19, vars: 0, consts: [[1, "m-3"], [1, "row"], [1, "col-xs-12", "col-sm", "2", "col-md", "2", "col-lg", "2"], ["src", "../../../assets/yo hoy.jpeg", "id", "la_foto", 1, "img-fluid"], ["id", "nombre"], [1, "col-xs-12", "col-sm", "8", "col-md", "8", "col-lg", "8"]], template: function AcercedemiComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2)(5, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Paricia Galun");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Full Stack Developer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Asesora Nutricional");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Asesora en entrenamiento Funcional");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 5)(14, "span")(15, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Acerca de mi ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Soy Argentina, nacida en Bs As, relice varios cursos, no relacionados con la Programacion, hata que encontre mi rumbo, Tengo amplios conocimientos en RR HH y Liquidacion de Sueldos, Tambien Secrteariado Administrativo. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
+    } }, styles: [".row[_ngcontent-%COMP%]{\r\n    background-color: rgb(238, 34, 153);\r\n    border-radius:50px;\r\n}\r\n    \r\n    div[_ngcontent-%COMP%]{\r\n   text-align: center;\r\n    float:inline-start;   \r\n     background-color: rgb(238, 34, 153);\r\n}\r\n    \r\n    \r\n    \r\n    @media (min-width:576px) {\r\n    #la_foto[_ngcontent-%COMP%]{\r\n        position: absolute;\r\n        width: 20%;\r\n        border-radius: 100%;\r\n        box-shadow: 10px 10px 10px rgb(78, 4, 78) ;\r\n        left: 100px;  \r\n    }\r\n    }\r\n    \r\n    @media (max-width:575px) {\r\n    la_foto[_ngcontent-%COMP%]{\r\n        position: absolute;\r\n        width: 30%;\r\n        border-radius: 100%;\r\n        box-shadow: 13px 13px 1px rgb(78, 4, 78) ;\r\n        left:33%;\r\n        top: 600px;  \r\n    }\r\n   \r\n}\r\n    \r\n    \r\n    \r\n    #nombre[_ngcontent-%COMP%]{\r\n    font-weight: bold;\r\n    margin-top: 40%;\r\n    margin-left: 10px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFjZXJjZWRlbWkuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1DQUFtQztJQUNuQyxrQkFBa0I7QUFDdEI7O0lBRUk7R0FDRCxrQkFBa0I7SUFDakIsa0JBQWtCO0tBQ2pCLG1DQUFtQztBQUN4Qzs7SUFFQSx5QkFBeUI7O0lBQ3pCO0lBQ0k7UUFDSSxrQkFBa0I7UUFDbEIsVUFBVTtRQUNWLG1CQUFtQjtRQUNuQiwwQ0FBMEM7UUFDMUMsV0FBVztJQUNmO0lBQ0E7O0lBRUo7SUFDSTtRQUNJLGtCQUFrQjtRQUNsQixVQUFVO1FBQ1YsbUJBQW1CO1FBQ25CLHlDQUF5QztRQUN6QyxRQUFRO1FBQ1IsVUFBVTtJQUNkOztBQUVKOztJQUNBLGtCQUFrQjs7SUFDbEI7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtJQUNmLGlCQUFpQjtBQUNyQiIsImZpbGUiOiJhY2VyY2VkZW1pLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93e1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIzOCwgMzQsIDE1Myk7XHJcbiAgICBib3JkZXItcmFkaXVzOjUwcHg7XHJcbn1cclxuICAgIFxyXG4gICAgZGl2e1xyXG4gICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBmbG9hdDppbmxpbmUtc3RhcnQ7ICAgXHJcbiAgICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIzOCwgMzQsIDE1Myk7XHJcbn1cclxuXHJcbi8qIGVzdGlsbyBmb3RvIGRlIHBlcmZpbCovIFxyXG5AbWVkaWEgKG1pbi13aWR0aDo1NzZweCkge1xyXG4gICAgI2xhX2ZvdG97XHJcbiAgICAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgICAgIHdpZHRoOiAyMCU7XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTAwJTtcclxuICAgICAgICBib3gtc2hhZG93OiAxMHB4IDEwcHggMTBweCByZ2IoNzgsIDQsIDc4KSA7XHJcbiAgICAgICAgbGVmdDogMTAwcHg7ICBcclxuICAgIH1cclxuICAgIH1cclxuXHJcbkBtZWRpYSAobWF4LXdpZHRoOjU3NXB4KSB7XHJcbiAgICBsYV9mb3Rve1xyXG4gICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgICAgICB3aWR0aDogMzAlO1xyXG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XHJcbiAgICAgICAgYm94LXNoYWRvdzogMTNweCAxM3B4IDFweCByZ2IoNzgsIDQsIDc4KSA7XHJcbiAgICAgICAgbGVmdDozMyU7XHJcbiAgICAgICAgdG9wOiA2MDBweDsgIFxyXG4gICAgfVxyXG4gICBcclxufVxyXG4vKmV0aXF1ZXRhIG5vbWJyZSovXHJcbiNub21icmV7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIG1hcmdpbi10b3A6IDQwJTtcclxuICAgIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcblxyXG5cclxuIl19 */"] });
+
+
+/***/ }),
+
+/***/ 9700:
+/*!********************************************************!*\
+  !*** ./src/app/componentes/banner/banner.component.ts ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "BannerComponent": () => (/* binding */ BannerComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class BannerComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+BannerComponent.ɵfac = function BannerComponent_Factory(t) { return new (t || BannerComponent)(); };
+BannerComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: BannerComponent, selectors: [["app-banner"]], decls: 3, vars: 0, consts: [[1, "row"], [1, "col-xs-12", "col-sm", "2", "col-md", "2", "col-lg", "2"], ["src", "../../../assets/mibanner.jpg", "id", "babnuevo", 1, "img-fluid"]], template: function BannerComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+    } }, styles: ["#babnuevo[_ngcontent-%COMP%]{\r\n          width: 100%;\r\n          height: 500px;\r\n          padding:5px;\r\n          background-color: rgb(238, 34, 153);\r\n          border-radius:50px;\r\n          }\r\n          img[_ngcontent-%COMP%]{ width: 100%;\r\n            height: 600px\r\n         }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJhbm5lci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJDQUFDO1VBQ1MsV0FBVztVQUNYLGFBQWE7VUFDYixXQUFXO1VBQ1gsbUNBQW1DO1VBQ25DLGtCQUFrQjtVQUNsQjtVQUNBLEtBQUssV0FBVztZQUNkO1NBQ0giLCJmaWxlIjoiYmFubmVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIgI2JhYm51ZXZve1xyXG4gICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICBoZWlnaHQ6IDUwMHB4O1xyXG4gICAgICAgICAgcGFkZGluZzo1cHg7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjM4LCAzNCwgMTUzKTtcclxuICAgICAgICAgIGJvcmRlci1yYWRpdXM6NTBweDtcclxuICAgICAgICAgIH1cclxuICAgICAgICAgIGltZ3sgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgIGhlaWdodDogNjAwcHhcclxuICAgICAgICAgfVxyXG4gICAgICAgXHJcbiAgICAgICBcclxuIl19 */"] });
+
+
+/***/ }),
+
+/***/ 4217:
+/*!************************************************************!*\
+  !*** ./src/app/componentes/estudios/estudios.component.ts ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "EstudiosComponent": () => (/* binding */ EstudiosComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class EstudiosComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+EstudiosComponent.ɵfac = function EstudiosComponent_Factory(t) { return new (t || EstudiosComponent)(); };
+EstudiosComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EstudiosComponent, selectors: [["app-estudios"]], decls: 58, vars: 0, consts: [[1, "card", "mat-card"], [1, "m", "-5"], ["id", "Titulos y Estudios"], [1, "card-titles"], [1, "btn-edit"], ["href", "#", 1, "btn-right"], [1, "fa", "fa", "plus"], [1, "col-lg-11"], [1, "items-list"], [1, "data-container"], ["src", "../../../assets/ntri png.jfif", "id", "Nutricion", 1, "logo-image"], ["src", "../../../assets/entre func.pmg.jfif", "id", "EF", 1, "logo", "image"], ["src", "../../../assets/arg prog.png", "id", "Developer", 1, "logo", "image"]], template: function EstudiosComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2)(3, "div", 3)(4, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Estudios");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4)(7, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div")(10, "div", 7)(11, "ul", 8)(12, "li")(13, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "- ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Asesora en Alimentaci\u00F3n Saludable");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "(Titulo 2022)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Como mantener un peso y una alimentaci\u00F3n saludable ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "li")(25, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Instructora en Entrenamiento Funcional");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " - ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "(Titulo 2022)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Ejercicios Funcionales para trabajr todo el cuerpo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li")(37, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "img", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "- ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Programacion Stack Developer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "(01/22)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](45, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Programacion Back y Front");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](48, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Instructora en Entrenamiento Funcional");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](51, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, " - ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "(Titulo 2022)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Ejercicios Funcionales para trabajr todo el cuerpo");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
+    } }, styles: ["div[_ngcontent-%COMP%]{\r\n    background-color: rgb(238, 34, 153);\r\n    border-radius:50px;\r\n   \r\n       }\r\n\r\nh1[_ngcontent-%COMP%] {\r\n    display: flex-block;\r\n    font-size: xx-large;\r\n    font-style: italic;\r\n    text-align: center;}\r\n\r\nh2[_ngcontent-%COMP%] {\r\n        display: inline;\r\n        font-size: x-large;\r\n        font-style: italic;\r\n        text-align: center;\r\n    color: #a739b6;}\r\n\r\nh3[_ngcontent-%COMP%]{\r\n    display: inline;\r\n    font-size:large;\r\n    font-style: italic;\r\n    color:#640870\r\n    }\r\n\r\np[_ngcontent-%COMP%]{\r\ncolor: blanchedalmond;\r\n}\r\n\r\n#Developer[_ngcontent-%COMP%] {\r\nwidth: 3%;\r\nheight: 30px;\r\n}\r\n\r\n#Nutricion[_ngcontent-%COMP%]{\r\n    width: 3%;\r\n    height: 30px;\r\n     }\r\n\r\n#EF[_ngcontent-%COMP%]{\r\n    width: 3%;\r\n    height: 30px;}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVzdHVkaW9zLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQ0FBbUM7SUFDbkMsa0JBQWtCOztPQUVmOztBQUVQO0lBQ0ksbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIsa0JBQWtCLENBQUM7O0FBRW5CO1FBQ0ksZUFBZTtRQUNmLGtCQUFrQjtRQUNsQixrQkFBa0I7UUFDbEIsa0JBQWtCO0lBQ3RCLGNBQWMsQ0FBQzs7QUFFbkI7SUFDSSxlQUFlO0lBQ2YsZUFBZTtJQUNmLGtCQUFrQjtJQUNsQjtJQUNBOztBQUNKO0FBQ0EscUJBQXFCO0FBQ3JCOztBQUVBO0FBQ0EsU0FBUztBQUNULFlBQVk7QUFDWjs7QUFFQTtJQUNJLFNBQVM7SUFDVCxZQUFZO0tBQ1g7O0FBQ0Q7SUFDQSxTQUFTO0lBQ1QsWUFBWSxDQUFDIiwiZmlsZSI6ImVzdHVkaW9zLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXZ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjM4LCAzNCwgMTUzKTtcclxuICAgIGJvcmRlci1yYWRpdXM6NTBweDtcclxuICAgXHJcbiAgICAgICB9XHJcblxyXG5oMSB7XHJcbiAgICBkaXNwbGF5OiBmbGV4LWJsb2NrO1xyXG4gICAgZm9udC1zaXplOiB4eC1sYXJnZTtcclxuICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjt9XHJcblxyXG4gICAgaDIge1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZTtcclxuICAgICAgICBmb250LXNpemU6IHgtbGFyZ2U7XHJcbiAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiAjYTczOWI2O31cclxuXHJcbmgze1xyXG4gICAgZGlzcGxheTogaW5saW5lO1xyXG4gICAgZm9udC1zaXplOmxhcmdlO1xyXG4gICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgY29sb3I6IzY0MDg3MFxyXG4gICAgfVxyXG5we1xyXG5jb2xvcjogYmxhbmNoZWRhbG1vbmQ7XHJcbn1cclxuXHJcbiNEZXZlbG9wZXIge1xyXG53aWR0aDogMyU7XHJcbmhlaWdodDogMzBweDtcclxufSAgICAgIFxyXG5cclxuI051dHJpY2lvbntcclxuICAgIHdpZHRoOiAzJTtcclxuICAgIGhlaWdodDogMzBweDtcclxuICAgICB9ICAgICAgXHJcbiAgICAjRUZ7XHJcbiAgICB3aWR0aDogMyU7XHJcbiAgICBoZWlnaHQ6IDMwcHg7fSJdfQ== */"] });
+
+
+/***/ }),
+
+/***/ 4737:
+/*!******************************************************************!*\
+  !*** ./src/app/componentes/experiencia/experiencia.component.ts ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ExperienciaComponent": () => (/* binding */ ExperienciaComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class ExperienciaComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ExperienciaComponent.ɵfac = function ExperienciaComponent_Factory(t) { return new (t || ExperienciaComponent)(); };
+ExperienciaComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienciaComponent, selectors: [["app-experiencia"]], decls: 39, vars: 0, consts: [[1, "card", "mat-card"], [1, "m", "-5"], ["id", "Experiencia Laboral"], [1, "card-titles"], [1, "btn-edit"], ["href", "#", 1, "btn-right"], [1, "fa", "fa", "plus"], [1, "col-lg-11"], [1, "items-list"], [1, "data-container"], ["src", "../../../assets/aegis.jpg", "id", "Aegis", 1, "logo-image"], ["src", "../../../assets/atento.png", "id", "Atento", 1, "logo", "image"]], template: function ExperienciaComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2)(3, "div", 3)(4, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Experiencia");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 4)(7, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div")(10, "div", 7)(11, "ul", 8)(12, "li")(13, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "- ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Supervisora Call Center>");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "desde 2003 hasta 2012");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Realizaba tareas de control de llamadas a asesores, Gestion de tiempos, Control de calidad en llamdas out");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "li")(25, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "- ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Asesor de Ventas en Call Center");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, " - ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "(Actualmente)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Atencion al cliente, ventas para la cuenta de Telefonica/Movistar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
+    } }, styles: ["div[_ngcontent-%COMP%]{\r\n    background-color: rgb(238, 34, 153);\r\n    border-radius:50px;\r\n       }\r\n\r\n       h1[_ngcontent-%COMP%] {\r\n        display: flex-block;\r\n        font-size: xx-large;\r\n        font-style: italic;\r\n        text-align: center;}\r\n\r\n       h2[_ngcontent-%COMP%] {\r\n            display: inline;\r\n            font-size: x-large;\r\n            font-style: italic;\r\n            text-align: center;\r\n        color: #a739b6;}\r\n\r\n       h3[_ngcontent-%COMP%]{\r\n        display: inline;\r\n        font-size:large;\r\n        font-style: italic;\r\n        color:#640870\r\n        }\r\n\r\n       p[_ngcontent-%COMP%]{\r\ncolor: blanchedalmond;\r\n}\r\n\r\n       #Aegis[_ngcontent-%COMP%]{\r\nwidth: 3%;\r\nheight: 30px;\r\n\r\n}\r\n\r\n       #Atento[_ngcontent-%COMP%]{\r\nwidth: 3%;\r\nheight: 30px;\r\n\r\n}\r\n\r\n       #APloui[_ngcontent-%COMP%]{\r\nwidth: 3%;\r\nheight: 30px;\r\n\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV4cGVyaWVuY2lhLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQ0FBbUM7SUFDbkMsa0JBQWtCO09BQ2Y7O09BRUE7UUFDQyxtQkFBbUI7UUFDbkIsbUJBQW1CO1FBQ25CLGtCQUFrQjtRQUNsQixrQkFBa0IsQ0FBQzs7T0FFbkI7WUFDSSxlQUFlO1lBQ2Ysa0JBQWtCO1lBQ2xCLGtCQUFrQjtZQUNsQixrQkFBa0I7UUFDdEIsY0FBYyxDQUFDOztPQUVuQjtRQUNJLGVBQWU7UUFDZixlQUFlO1FBQ2Ysa0JBQWtCO1FBQ2xCO1FBQ0E7O09BQ1I7QUFDQSxxQkFBcUI7QUFDckI7O09BRUE7QUFDQSxTQUFTO0FBQ1QsWUFBWTs7QUFFWjs7T0FDQTtBQUNBLFNBQVM7QUFDVCxZQUFZOztBQUVaOztPQUNBO0FBQ0EsU0FBUztBQUNULFlBQVk7O0FBRVoiLCJmaWxlIjoiZXhwZXJpZW5jaWEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdntcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigyMzgsIDM0LCAxNTMpO1xyXG4gICAgYm9yZGVyLXJhZGl1czo1MHB4O1xyXG4gICAgICAgfVxyXG5cclxuICAgICAgIGgxIHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4LWJsb2NrO1xyXG4gICAgICAgIGZvbnQtc2l6ZTogeHgtbGFyZ2U7XHJcbiAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjt9XHJcbiAgICBcclxuICAgICAgICBoMiB7XHJcbiAgICAgICAgICAgIGRpc3BsYXk6IGlubGluZTtcclxuICAgICAgICAgICAgZm9udC1zaXplOiB4LWxhcmdlO1xyXG4gICAgICAgICAgICBmb250LXN0eWxlOiBpdGFsaWM7XHJcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICBjb2xvcjogI2E3MzliNjt9XHJcbiAgICBcclxuICAgIGgze1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZTtcclxuICAgICAgICBmb250LXNpemU6bGFyZ2U7XHJcbiAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgICAgIGNvbG9yOiM2NDA4NzBcclxuICAgICAgICB9XHJcbnB7XHJcbmNvbG9yOiBibGFuY2hlZGFsbW9uZDtcclxufVxyXG5cclxuI0FlZ2lze1xyXG53aWR0aDogMyU7XHJcbmhlaWdodDogMzBweDtcclxuXHJcbn0gICAgICBcclxuI0F0ZW50b3tcclxud2lkdGg6IDMlO1xyXG5oZWlnaHQ6IDMwcHg7XHJcblxyXG59ICAgIFxyXG4jQVBsb3Vpe1xyXG53aWR0aDogMyU7XHJcbmhlaWdodDogMzBweDtcclxuXHJcbn0gIFxyXG4iXX0= */"] });
+
+
+/***/ }),
+
+/***/ 202:
+/*!********************************************************!*\
+  !*** ./src/app/componentes/footer/footer.component.ts ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FooterComponent": () => (/* binding */ FooterComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class FooterComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
+FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 2, vars: 0, template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "footer works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJmb290ZXIuY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ 2135:
+/*!****************************************************!*\
+  !*** ./src/app/componentes/hard/hard.component.ts ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "HardComponent": () => (/* binding */ HardComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class HardComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+HardComponent.ɵfac = function HardComponent_Factory(t) { return new (t || HardComponent)(); };
+HardComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HardComponent, selectors: [["app-hard"]], decls: 2, vars: 0, template: function HardComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "hard works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJoYXJkLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ 4944:
+/*!********************************************************!*\
+  !*** ./src/app/componentes/header/header.component.ts ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "HeaderComponent": () => (/* binding */ HeaderComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _redessociales_redessociales_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../redessociales/redessociales.component */ 6792);
+
+
+class HeaderComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(); };
+HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 6, vars: 0, consts: [[1, "container"], ["href", ""], ["src", "../../../assets/banner-ok-argentina-programa.jpg", "id", "logoAP"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "a", 1)(2, "img", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "app-redessociales");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](4, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, "Mi Proyecto Personal");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    } }, dependencies: [_redessociales_redessociales_component__WEBPACK_IMPORTED_MODULE_0__.RedessocialesComponent], styles: ["div[_ngcontent-%COMP%]{\r\n    background-color: rgb(238, 34, 153);\r\n    border-radius:50px;\r\n}\r\n.container[_ngcontent-%COMP%] {\r\n    width: 150px;\r\n    float: left; \r\n}\r\n#logoAP[_ngcontent-%COMP%]{\r\n    width: 120px;\r\n    float: left; \r\n}\r\n#face[_ngcontent-%COMP%]{\r\n    width: 40px;\r\n    height: 35px;\r\n    float: right;   \r\n}\r\n#insta[_ngcontent-%COMP%]{\r\n    width: 40px;\r\n    height: 35px;\r\n    float: right;\r\n}\r\n#wsp[_ngcontent-%COMP%]{\r\n    width: 40px;\r\n    height: 40px;\r\n    float: right;\r\n}\r\n#GItHUB[_ngcontent-%COMP%]{\r\n    width: 40px;\r\n    height: 40px;\r\n    float: right;\r\n}\r\n#twtl[_ngcontent-%COMP%]{\r\n    width: 40px;\r\n    height: 40px;\r\n    float: right;\r\n}\r\nh1[_ngcontent-%COMP%]{\r\n   background-color: rgb(238, 34, 153);\r\n   float:inline-start;  \r\n   text-align: center; \r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlYWRlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUNBQW1DO0lBQ25DLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7QUFDZjtBQUNBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7QUFDZjtBQUVBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixZQUFZO0FBQ2hCO0FBRUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLFlBQVk7QUFDaEI7QUFFQTtJQUNJLFdBQVc7SUFDWCxZQUFZO0lBQ1osWUFBWTtBQUNoQjtBQUNBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixZQUFZO0FBQ2hCO0FBRUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLFlBQVk7QUFDaEI7QUFFQTtHQUNHLG1DQUFtQztHQUNuQyxrQkFBa0I7R0FDbEIsa0JBQWtCO0FBQ3JCIiwiZmlsZSI6ImhlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2e1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIzOCwgMzQsIDE1Myk7XHJcbiAgICBib3JkZXItcmFkaXVzOjUwcHg7XHJcbn1cclxuLmNvbnRhaW5lciB7XHJcbiAgICB3aWR0aDogMTUwcHg7XHJcbiAgICBmbG9hdDogbGVmdDsgXHJcbn1cclxuI2xvZ29BUHtcclxuICAgIHdpZHRoOiAxMjBweDtcclxuICAgIGZsb2F0OiBsZWZ0OyBcclxufVxyXG5cclxuI2ZhY2V7XHJcbiAgICB3aWR0aDogNDBweDtcclxuICAgIGhlaWdodDogMzVweDtcclxuICAgIGZsb2F0OiByaWdodDsgICBcclxufVxyXG5cclxuI2luc3Rhe1xyXG4gICAgd2lkdGg6IDQwcHg7XHJcbiAgICBoZWlnaHQ6IDM1cHg7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbn1cclxuXHJcbiN3c3B7XHJcbiAgICB3aWR0aDogNDBweDtcclxuICAgIGhlaWdodDogNDBweDtcclxuICAgIGZsb2F0OiByaWdodDtcclxufVxyXG4jR0l0SFVCe1xyXG4gICAgd2lkdGg6IDQwcHg7XHJcbiAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbn1cclxuXHJcbiN0d3Rse1xyXG4gICAgd2lkdGg6IDQwcHg7XHJcbiAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbn1cclxuXHJcbmgxe1xyXG4gICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjM4LCAzNCwgMTUzKTtcclxuICAgZmxvYXQ6aW5saW5lLXN0YXJ0OyAgXHJcbiAgIHRleHQtYWxpZ246IGNlbnRlcjsgXHJcbn1cclxuICAgICBcclxuIl19 */"] });
+
+
+/***/ }),
+
+/***/ 6774:
+/*!**************************************************************!*\
+  !*** ./src/app/componentes/proyectos/proyectos.component.ts ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "ProyectosComponent": () => (/* binding */ ProyectosComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class ProyectosComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ProyectosComponent.ɵfac = function ProyectosComponent_Factory(t) { return new (t || ProyectosComponent)(); };
+ProyectosComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProyectosComponent, selectors: [["app-proyectos"]], decls: 2, vars: 0, template: function ProyectosComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "proyectos works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm95ZWN0b3MuY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ 6792:
+/*!**********************************************************************!*\
+  !*** ./src/app/componentes/redessociales/redessociales.component.ts ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "RedessocialesComponent": () => (/* binding */ RedessocialesComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class RedessocialesComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+RedessocialesComponent.ɵfac = function RedessocialesComponent_Factory(t) { return new (t || RedessocialesComponent)(); };
+RedessocialesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RedessocialesComponent, selectors: [["app-redessociales"]], decls: 10, vars: 0, consts: [["href", ""], ["src", "../../../assets/FACEBOOK.jpg", "id", "face"], ["src", "../../../assets/INSTAGRAM.jpg", "id", "insta"], ["src", "../../../assets/WHATSAPP.jpg", "id", "wsp"], ["src", "../../../assets/GitHub-Mark.jpg", "id", "GItHUB"], ["src", "../../../assets/twtl.png", "id", "twtl"]], template: function RedessocialesComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "a", 0)(1, "img", 1)(2, "a", 0)(3, "img", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "img", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+    } }, styles: ["#face[_ngcontent-%COMP%]{\r\n   width: 40px;\r\n   height: 35px;\r\n   float: right;   \r\n}\r\n\r\n#insta[_ngcontent-%COMP%]{\r\n   width: 40px;\r\n   height: 35px;\r\n   float: right;\r\n}\r\n\r\n#wsp[_ngcontent-%COMP%]{\r\n   width: 40px;\r\n   height: 40px;\r\n   float: right;\r\n}\r\n\r\n#GItHUB[_ngcontent-%COMP%]{\r\n   width: 40px;\r\n   height: 40px;\r\n   float: right;\r\n}\r\n\r\n#twtl[_ngcontent-%COMP%]{\r\n   width: 40px;\r\n   height: 40px;\r\n   float: right;}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZGVzc29jaWFsZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7R0FDRyxXQUFXO0dBQ1gsWUFBWTtHQUNaLFlBQVk7QUFDZjs7QUFFQTtHQUNHLFdBQVc7R0FDWCxZQUFZO0dBQ1osWUFBWTtBQUNmOztBQUVBO0dBQ0csV0FBVztHQUNYLFlBQVk7R0FDWixZQUFZO0FBQ2Y7O0FBQ0E7R0FDRyxXQUFXO0dBQ1gsWUFBWTtHQUNaLFlBQVk7QUFDZjs7QUFFQTtHQUNHLFdBQVc7R0FDWCxZQUFZO0dBQ1osWUFBWSxDQUFDIiwiZmlsZSI6InJlZGVzc29jaWFsZXMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4jZmFjZXtcclxuICAgd2lkdGg6IDQwcHg7XHJcbiAgIGhlaWdodDogMzVweDtcclxuICAgZmxvYXQ6IHJpZ2h0OyAgIFxyXG59XHJcblxyXG4jaW5zdGF7XHJcbiAgIHdpZHRoOiA0MHB4O1xyXG4gICBoZWlnaHQ6IDM1cHg7XHJcbiAgIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxuI3dzcHtcclxuICAgd2lkdGg6IDQwcHg7XHJcbiAgIGhlaWdodDogNDBweDtcclxuICAgZmxvYXQ6IHJpZ2h0O1xyXG59XHJcbiNHSXRIVUJ7XHJcbiAgIHdpZHRoOiA0MHB4O1xyXG4gICBoZWlnaHQ6IDQwcHg7XHJcbiAgIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxuI3R3dGx7XHJcbiAgIHdpZHRoOiA0MHB4O1xyXG4gICBoZWlnaHQ6IDQwcHg7XHJcbiAgIGZsb2F0OiByaWdodDt9Il19 */"] });
+
+
+/***/ }),
+
+/***/ 2340:
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "environment": () => (/* binding */ environment)
+/* harmony export */ });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+const environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ 4431:
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 6747);
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 2340);
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.enableProdMode)();
+}
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.platformBrowser().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
+    .catch(err => console.error(err));
+
+
+/***/ })
+
+},
+/******/ __webpack_require__ => { // webpackRuntimeModules
+/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+/******/ __webpack_require__.O(0, ["vendor"], () => (__webpack_exec__(1211), __webpack_exec__(4431)));
+/******/ var __webpack_exports__ = __webpack_require__.O();
+/******/ }
+]);
+//# sourceMappingURL=main.js.map

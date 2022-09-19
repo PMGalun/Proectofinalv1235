@@ -1,0 +1,178 @@
+C:\Users\patto\Proecto final v1235
+
+APV130709*
+
+git
+ls (saber que archivos tiene)
+pwd (saber en que directorio esta)
+ git init (inicializa el proyecto, crea un nuevo repositorio de GIT)
+git config --global user.email "pattoyo01@gmail.com"
+git config --global user.name "PMG"
+git status
+
+git add Proyecto1.html
+git status 
+git coomit (1)iniciandoo proecto final
+git remote add origin https://github.com/pattoyo01/Proectofinalv1235.git
+git push -u origin master
+
+
+GIT HUB
+Proectofinalv1235
+
+ANGULAR
+npm install -g npm@latest --
+npm install -g @angular/cli@latest --
+npm install -g bootstrap
+npm i ng-circle-progress
+cd Proyectov1
+ng serve --o
+
+INICIANDO PROYECTO FINAL
+ng g c componentes/header --
+ng g c componentes/acercedemi --
+ng g c componentes/estudios
+ng g c componentes/experiencia
+ng g c componentes/banner
+ng g c componentes/footer
+ng g c componentes/Hard & Soft Skill
+ng g c componentes/Proyectos
+ng g c componentes/redessociales --
+
+BANNER
+
+
+
+
+div{
+    background-color: blanchedalmond;
+    padding: 100px;   
+   text-align:inherit;
+   margin-left: 10px;
+   
+
+   
+   }
+
+@media (max-width:575px) {
+    #elbannerAP{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 13px 13px 1px rgb(78, 4, 78) ;
+        left:33%;
+        top: 600px;  
+    }
+   
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 10px;
+}
+
+
+
+comer bien
+ position: absolute;
+        width: 30%;
+        height: 300px;
+        display: rigth;******
+        border: radius 70%;       
+        box-shadow: 10px 10px 10px rgb(78, 4, 78) ;
+        right: 100px;  
+        border-radius: 100%;
+        box-shadow: 13px 13px 1px rgb(78, 4, 78) ;
+        left:33%;
+        top: 600px;  
+    
+ver botones barra arriba lucas
+
+        
+    <nav class="nav">    
+      <ul class="nav ul">
+        <li class="nav li"><i class="fas fa home"></i><a href="Index.html">Inicio</a>a></li>
+        <li class="nav li"><i class="fas fa-user-friends"></i><a href="conociendome.html">Inicio</a>a></li>
+        <li class="nav li"><i class="fas fa-question-circle"></i><a href="Mis lins.html">Mis Proyectos</a></li>
+        <li class="nav li"><i class="fas fa home"></i><a href="mi experienci.html">experiencia</a>a></li>
+
+      </ul> 
+ver botones
+
+
+.nav_responsive-ul{
+    display: none;
+}
+     
+.nav{
+   background-color:  rgb(238, 34, 153);}
+    
+   .nav_liv{
+    display: inline-block;
+    padding: 12px;
+    color:beige
+   }
+
+   .nav:li i {
+    width: 30px;
+    box-sizing: border-box;
+    text-align:right;
+    margin-left: 5px;
+   }
+
+#alimentacion{
+        position: ab7;
+        width: 35%;
+        height: 180px;
+       box-shadow: 10px 10px 10px rgb(78, 4, 78) ; 
+        right: 100px; 
+        border-radius: 100%;
+        margin-top: -20%; 
+    }
+
+
+@media (max-width:575px) {
+    #elbannerAP{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 13px 13px 1px rgb(78, 4, 78) ;
+        left:33%;
+        top: 600px;  
+    }
+
+HEADER (AGREGAR)
+      
+  <nav class="nav">    
+    <ul class="nav ul">
+      <li class="nav li"><i class="fas fa home"></i><a href="Index.html">Inicio</a>a></li>
+      <li class="nav li"><i class="fas fa-user-friends"></i><a href="conociendome.html">Inicio</a>a></li>
+      <li class="nav li"><i class="fas fa-question-circle"></i><a href="Mis lins.html">Mis Proyectos</a></li>
+      <li class="nav li"><i class="fas fa home"></i><a href="mi experienci.html">experiencia</a>a></li>
+
+    </ul> 
+
+
+CSS DE ACERCA DE 
+
+.row{
+    background-color: rgb(238, 34, 153);
+    border-radius:50px;}
+
+    div{
+     text-align: center;
+    float:inline-start;   
+     background-color: rgb(238, 34, 153);
+     border-radius:50px;
+}
+
+
+
+/*etiqueta mi foto*/
+#mi_nombre{
+    font-weight: bold;
+    margin-top: 40%;
+    margin-left: 10px;
+    float:right
+}

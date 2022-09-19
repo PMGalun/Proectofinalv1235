@@ -1,0 +1,47 @@
+div{
+    background-color: rgb(44, 202, 202);
+    border-radius:50px;
+    margin-top: 1%;
+    
+       }
+
+       h1 {
+        display: flex-block;
+        font-size: xx-large;
+        font-style: italic;
+        text-align: center;}
+    
+        h2 {
+            display: inline;
+            font-size: x-large;
+            font-style: italic;
+            text-align: center;
+        color: #a739b6;}
+    
+    h3{
+        display: inline;
+        font-size:large;
+        font-style: italic;
+        color:#640870
+        }
+p{
+color: blanchedalmond;
+}
+
+#Aegis{
+width: 3%;
+height: 30px;
+
+}      
+#Atento{
+width: 3%;
+height: 30px;
+
+}    
+#APloui{
+width: 3%;
+height: 30px;
+
+}  
+
+

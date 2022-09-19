@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HardComponent } from './hard.component';
+import { RedessocialesComponent } from './redessociales.component';
 
-describe('HardComponent', () => {
-  let component: HardComponent;
-  let fixture: ComponentFixture<HardComponent>;
+describe('RedessocialesComponent', () => {
+  let component: RedessocialesComponent;
+  let fixture: ComponentFixture<RedessocialesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HardComponent ]
+      declarations: [ RedessocialesComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HardComponent);
+    fixture = TestBed.createComponent(RedessocialesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

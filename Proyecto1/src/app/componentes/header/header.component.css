@@ -1,0 +1,54 @@
+div{
+    background-color: rgb(44, 202, 202);
+    border-radius:50px;
+}
+.container {
+    width: 150px;
+    float: left; }
+
+  .container1 {
+        width: 150px;
+        float:right;
+        text-align: center;
+        
+}
+#logoAP{
+    width: 120px;
+    float: left; 
+}
+
+#face{
+    width: 40px;
+    height: 35px;
+    float: right;   
+}
+
+#insta{
+    width: 40px;
+    height: 35px;
+    float: right;
+}
+
+#wsp{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+#GItHUB{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+#twtl{
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+h1{
+   background-color: rgb(44, 202, 202);
+   float:inline-start;  
+   text-align: center; 
+}
+
