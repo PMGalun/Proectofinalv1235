@@ -27,16 +27,18 @@ npm install -g bootstrap
 npm i ng-circle-progress
 cd Proyectov1
 ng serve --o
+npm i ng-circle-progress
+
 
 INICIANDO PROYECTO FINAL
 ng g c componentes/header --
 ng g c componentes/acercedemi --
-ng g c componentes/estudios
-ng g c componentes/experiencia
-ng g c componentes/banner
+ng g c componentes/estudios --
+ng g c componentes/experiencia --
+ng g c componentes/banner--
 ng g c componentes/footer
 ng g c componentes/Hard & Soft Skill
-ng g c componentes/Proyectos
+ng g c componentes/Proyectos --
 ng g c componentes/redessociales --
 
 BANNER
